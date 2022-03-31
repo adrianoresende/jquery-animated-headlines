@@ -6,7 +6,7 @@
     position: relative;
     text-align: left;
 
-    b {
+    strong {
         display: inline-block;
         position: absolute;
         white-space: nowrap;
@@ -18,7 +18,7 @@
         }
     }
 
-    .no-js & b {
+    .no-js & strong {
         opacity: 0;
         
         &.is-visible {
@@ -40,7 +40,7 @@ xrotate-1
         perspective: 300px;
     }
 
-    b {
+    strong {
         opacity: 0;
         transform-origin: 50% 100%;
         transform: rotateX(180deg);
@@ -134,13 +134,13 @@ xtype
                 visibility: hidden;
             }
 
-            b {
+            strong {
                 color: $color-1;
             }
         }
     }
 
-    b {
+    strong {
         visibility: hidden;
 
         &.is-visible {
@@ -193,7 +193,7 @@ xrotate-2
         backface-visibility: hidden;
     }
 
-    b {
+    strong {
         opacity: 0;
     }
 
@@ -303,7 +303,7 @@ xloading-bar
         }
     }
 
-    b {
+    strong {
         top: .2em;
         opacity: 0;
         transition: opacity .3s;
@@ -333,7 +333,7 @@ xslide
         vertical-align: top;
     }
 
-    b {
+    strong {
         opacity: 0;
         top: .2em;
 
@@ -412,7 +412,7 @@ xclip
         }
     }
 
-    b {
+    strong {
         opacity: 0;
 
         &.is-visible {
@@ -433,7 +433,7 @@ xzoom
         perspective: 300px;
     }
 
-    b {
+    strong {
         opacity: 0;
 
         &.is-visible {
@@ -483,7 +483,7 @@ xrotate-3
         perspective: 300px;
     }
 
-    b {
+    strong {
         opacity: 0;
     }
 
@@ -543,7 +543,7 @@ xscale
 
 .ah-headline.scale {
 
-    b {
+    strong {
         opacity: 0;
     }
 
@@ -612,7 +612,7 @@ xpush
 
 .ah-headline.push {
 
-    b {
+    strong {
         opacity: 0;
 
         &.is-visible {
